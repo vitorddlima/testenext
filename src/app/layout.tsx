@@ -27,11 +27,7 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        <nav>
-          <p>primeiro</p>
-          <p>segundo</p>
-          <p>terceiro</p>
-        </nav>
+        <Menu op1="Home" op2="HookPage"/>
         {children}
       </body>
     </html>
